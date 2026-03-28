@@ -3,9 +3,7 @@
 # 使用方法
 ```bash
 
-docker run --rm <image name>
+podman run --rm <image name> --format=csv
 ```
 
-- `test.sh` 裡面寫要測試的主機
-
-- 輸出會以JSON格式呈現
+- `--format=csv` 輸出格式為CSV
